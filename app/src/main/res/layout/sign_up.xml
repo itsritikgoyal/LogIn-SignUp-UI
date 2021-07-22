@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="5">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="30sp"
+    android:layout_marginTop="30sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity=""
+        android:src="@drawable/Logo"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginBottom="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="30sp"
+        android:textColor="@color/headings"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:paddingStart="20sp"
+        android:hint="Full name"
+        android:autofillHints="Email"
+        android:inputType="text"
+        android:textColorHint="@color/front_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/corners"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingStart="20sp"
+        android:hint="someone@example.com"
+        android:autofillHints="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/front_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/corners"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingStart="20sp"
+        android:hint="Password"
+        android:autofillHints="Password"
+        android:inputType="textPassword"
+        android:textColorHint= "@color/front_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/corners"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="I agree to the Terms and Conditions"
+        android:layout_gravity="start"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/corners"
+        android:text="Sign up"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</LinearLayout>
