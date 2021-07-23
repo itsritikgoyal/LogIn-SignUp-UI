@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_drawer"
     android:layout_gravity="start"
-    app:menu="@menu/nav_item">
+    app:menu="@menu/nav_item"
+    app:headerLayout="@layout/nav_header">
 
 </com.google.android.material.navigation.NavigationView>
