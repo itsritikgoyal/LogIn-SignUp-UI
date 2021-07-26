@@ -32,9 +32,9 @@
             android:layout_height="65dp"
             android:src="@drawable/ic_profile"
             app:shapeAppearanceOverlay="@style/Circular"
+            android:layout_marginRight="60dp"
             app:strokeWidth="2dp"
-            app:strokeColor="@color/front_color"
-            android:padding="6dp"/>
+            app:strokeColor="@color/front_color"/>
 
     </LinearLayout>
 

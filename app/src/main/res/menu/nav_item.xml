@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:title="@string/my_account">
-        <menu>
+
             <item
-                android:id="@+id/Home"
-                android:title="@string/home"
+                android:id="@+id/profile"
+                android:title="@string/profile"
                 android:icon="@drawable/ic_profile"
                 />
             <item
-                android:id="@+id/login"
-                android:title="@string/login"
-                android:icon="@drawable/ic_login"
+                android:id="@+id/wallet"
+                android:title="@string/wallet"
+                android:icon="@drawable/ic_wallet"
                 />
             <item
-                android:id="@+id/create"
-                android:title="@string/create"
-                android:icon="@drawable/ic_create"
+                android:id="@+id/results"
+                android:title="@string/results"
+                android:icon="@drawable/ic_result"
                 />
-        </menu>
-
-    </item>
-    <item android:title="@string/other">
-        <menu>
-    <item
-        android:title="@string/contact"
-        android:icon="@drawable/ic_wallet">
-    </item>
-    <item
-        android:title="@string/privacy"
-        android:icon="@drawable/ic_wallet">
-    </item>
-        </menu>
-    </item>
-
 </menu>

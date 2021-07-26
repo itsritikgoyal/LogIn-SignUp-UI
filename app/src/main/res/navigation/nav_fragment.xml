@@ -3,20 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_fragment"
-    app:startDestination="@id/home">
+    app:startDestination="@layout/activity_main">
 
     <fragment
-        android:id="@+id/home"
+        android:id="@+id/profile"
         android:name="com.example.myapplication.view.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/login"
+        android:id="@+id/results"
         android:name="com.example.myapplication.view.SettingFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_setting" />
     <fragment
-        android:id="@+id/create"
+        android:id="@+id/wallet"
         android:name="com.example.myapplication.view.WalletFragment"
         android:label="Wallet"
         tools:layout="@layout/fragment_wallet" />
